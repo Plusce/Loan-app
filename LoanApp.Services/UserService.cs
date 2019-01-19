@@ -17,6 +17,7 @@ namespace LoanApp.Services
         public UserService(LoanContext db)
         {
             _db = db;
+
         }
 
         public async Task<User> Create(CreateUserDto createUserDto)
